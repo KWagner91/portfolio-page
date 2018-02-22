@@ -1,0 +1,25 @@
+/* Big screen Media Query */
+@media screen and (min-width: 1001px) {
+   .container {
+     align-items: center;
+     margin: auto;
+  }
+}
+
+/* Tablet screen Media Query */
+@media screen and (min-width: 400px) and (max-width: 1000px) {
+  .container {
+      width: 100%;
+  }
+}
+
+/* Phone screen Media Query */
+@media screen and (max-width: 400px) {
+  .container {
+     width: 100%;
+  }
+
+  .portfolio-box {
+    width: calc(100% - 4rem);
+  }
+}
