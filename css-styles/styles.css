@@ -1,4 +1,4 @@
-/* ==== Basic CSS styling for elements across the page ==== */
+/* ==== Flexbox Layout and CSS styling for elements across the page ==== */
 html {
   background-color: #2d3c49;
   font-family: "Roboto", sans-serif;
@@ -8,17 +8,18 @@ html {
 
 .container {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  width: 1000px;
+  flex-direction: column;
+  height: auto;
+  width: 950px;
 }
 
 
 .box {
   background-color: #fff;
+  flex: 1;
   margin: 0.5rem;
-  padding: 20px;
-  width: 100%;
+  padding: 1rem 2rem;
+
 }
 
 
@@ -36,13 +37,9 @@ html {
 /* ==== Header Div styling ==== */
 .header {
   background-color: #02b3e4;
-  display: inline;
   font-family: "Kaushan Script", cursive;
-  margin: 0.5rem;
-  padding: 20px;
   position: relative;
   text-align: center;
-  width: calc(100% - 1rem);
   z-index: -1;
 }
 
@@ -51,13 +48,11 @@ html {
   color: #fff;
   font-size: 3.4rem;
   text-shadow: 2px 2px #000;
-  z-index: 1;
 }
 
 
 .header h2 {
   font-size: 2rem;
-  z-index: 1;
 }
 
 
@@ -90,7 +85,7 @@ hr {
 /* ==== About Me Div styling ==== */
 .top {
   line-height: 1.5;
-  padding: 20px 50px 35px 50px;
+
 }
 /* END: About Me Div styling */
 
@@ -101,6 +96,7 @@ hr {
 .middle {
   display: flex;
   flex-flow: row wrap;
+
 }
 
 
@@ -145,23 +141,15 @@ hr {
 
 
 /* ==== Resources Div styling ==== */
-.resources {
-  padding-left: 50px;
-  padding-right: 50px;
+.resources h3 {
+  padding-top: 15px;
 }
-
-
-.resources h3:nth-child(n+3){
-  padding-top: 35px;
-}
-
 
 .resources ul,
 .resources li {
   display: inline-block;
   list-style-type: none;
-  margin-right: 20px;
-  padding: 0;
+  padding-right: 20px;
 }
 
 
@@ -173,10 +161,11 @@ hr {
 }
 
 
-.image {
+.book-image {
   display: inline-block;
-  max-height: 150px;
-  padding-right: 10px;
+  width: 20%;
+  height: auto;
+  padding-right: 20px;
 }
 
 
@@ -193,8 +182,6 @@ hr {
 .bottom {
   background-color: #7d97ad;
   line-height: 1.5;
-  padding-left: 30px;
-  padding-right: 30px;
   text-align: center;
 }
 

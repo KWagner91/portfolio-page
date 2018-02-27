@@ -1,13 +1,12 @@
 /* Big screen Media Query */
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 951px) {
    .container {
-     align-items: center;
      margin: auto;
   }
 }
 
 /* Tablet screen Media Query */
-@media screen and (min-width: 400px) and (max-width: 1000px) {
+@media screen and (min-width: 400px) and (max-width: 950px) {
   .container {
       width: 100%;
   }
