@@ -1,4 +1,4 @@
-/* ==== Flexbox Layout and CSS styling for elements across the page ==== */
+/* ==== Basic CSS styling for elements across the page ==== */
 html {
   background-color: #2d3c49;
   font-family: "Roboto", sans-serif;
@@ -16,7 +16,6 @@ html {
 
 .box {
   background-color: #fff;
-  flex: 1;
   margin: 0.5rem;
   padding: 1rem 2rem;
 
@@ -85,7 +84,6 @@ hr {
 /* ==== About Me Div styling ==== */
 .top {
   line-height: 1.5;
-
 }
 /* END: About Me Div styling */
 
@@ -96,7 +94,6 @@ hr {
 .middle {
   display: flex;
   flex-flow: row wrap;
-
 }
 
 
@@ -167,7 +164,6 @@ hr {
   height: auto;
   padding-right: 20px;
 }
-
 
 
 .resources a:hover {
