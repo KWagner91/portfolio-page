@@ -1,100 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>K.Wagner | Web Developer</title>
+  <meta name="description" content="K.Wagner Portfolio">
+  <meta name="Kerstin Wagner" content="Web Developer Portfolio">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Portfolio of K. Wagner</title>
-    <meta name="description" content="First portfolio page">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css-styles/styles.css">
-    <link rel="stylesheet" href="css-styles/responsive.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  </head>
+</head>
 
-  <body>
-    <!-- div for flexbox layout container contains div class "header", "top box", "middle box", resource-box and "bottom-box"  -->
-    <div class="container">
-      <!-- header section of page -->
-      <main class="header box">
-        <h1>Kerstin Wagner </h1>
-        <img src="KWagner2.jpg" alt="Profile picture of Kerstin Wagner" class="profile-pic">
-        <h2>Hello! I am a Front-End Web Developer from Austria</h2>
-        <hr>
-          <p class="quote"><q>If you look at history, innovation doesn't come just from giving people incentives; <br>it comes from creating environments where their ideas can connect. </q> <br>
-          <cite>Steven Johnson</cite>
-      </main>
+<body>
+  
+  <div class="frame">
+    <nav>
+      <ul>
+  <li><a href="#Projects">Projects</a></li>
+  <li><a href="#Skills">Skills</a></li>
+  <li><a href="#Resources">Resources</a></li>
+  <li><a href="#Contact">Contact</a></li>
+  <li style="float:right"><a href="#">Kerstin Wagner</a></li>
+</ul>
+    </nav>
+    
+    <main>
+      <img src="KWagner2.jpg" alt="Picture of K.Wagner" class="profile-pic">
+      <h1>Kerstin Wagner</h1>
+      <h2>I am a Front-End Web Developer in Munich (Germany) with focus on a clean and user-friendly Web Experience.</h2>
+      
+    </main>
 
-      <!--main section of page containing biography -->
-      <section class="top box">
-        <h2>About Me</h2>
-        <p>I am a self-taught <b>Front-End Web developer</b> with Python experience based in France. I provide responsive front-end development as well as functional programming.  </p>
-        <p>In my past experience as a coder I have acquired an eye for detail and functionality of my products. What I love most about my work is being able to bring my vision and ideas closer to a world-wide audience.</p>
-        <p>I would describe myself as a cosmopolitan, who has been living most of adult life in Switzerland, France and UK. My experiences abroad not only strengthened my organization skills but also allowed me to interact with people of different cultures and backgrounds. </p>
-        <p>I have a <em>Master of Science degree</em> from University Vienna, after 2 years in biological research I found my live-long passion for coding. Apart from my Tech interest, I love literature, wool-work and bunnies &#128048;.</p>
-      </section>
-
-      <!-- middle box section: contains child-flexbox elements "portfolio-box"-->
-      <section class="middle box">
-          <h2> My Portfolio </h2>
-          <div class="portfolio-box">
-            <h3>Rock Paper Scissors Browser Game</h3>
-              <a href="https://github.com/KWagner91/rock-paper-scissors-browser" target="_blank">
-                <img src="project-screens/rock-paper-scissors.png" alt="Screenshot of Rock-Paper-Scissors Browsergame" class="portfolio-pic">
-              </a>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
-          <div class="portfolio-box">
-            <h3>Pixel Art Canvas</h3>
-            <a href="https://codepen.io/kwagner91/pen/KyyZYO" target="_blank">
-              <img src="project-screens/pixel-art.png" alt="Screenshot of Pixel Canvas Project" class="portfolio-pic">
+    <section id="Projects">
+      <h1>Projects</h1>
+      <div class="container">
+      <div class="portfolio-box">
+          <h3>Rock Paper Scissors Browser Game</h3>
+            <a href="https://github.com/KWagner91/rock-paper-scissors-browser" target="_blank">
+              <img src="project-screens/rock-paper-scissors.png" alt="Screenshot of Rock-Paper-Scissors Browsergame" class="portfolio-pic">
             </a>
-            <ul>
-              <li>Javascript</li>
-              <li>HTML/CSS</li>
-              <li>jQuery</li>
-            </ul>
-          </div>
-          <div class="portfolio-box">
-            <h3>Animal Trading Card</h3>
-            <a href="https://github.com/KWagner91/animal-trading-card" target="_blank">
-              <img src="project-screens/animal-trading-card.png" alt="Screenshot of my Animal Trading Card" class="portfolio-pic">
-            </a>
-            <ul>
-              <li>HTML/CSS</li>
-            </ul>
-          </div>
-          <div class="portfolio-box">
-            <h3>Fill-in-blanks Console Quiz</h3>
-            <a href="https://github.com/KWagner91/Fill-in-the-blanks" target="_blank">
-              <img src="project-screens/fill-in-blanks.png" alt="Screenshot of Fill-in-blanks Console Game" class="portfolio-pic">
-            </a>
-            <ul>
-              <li>Python</li>
-            </ul>
-          </div>
-          <div class="portfolio-box">
-            <h3>Anime Movie-Trailer Website</h3>
-              <a href="https://github.com/KWagner91/Anime-Movie-Page" target="_blank">
-            <img src="project-screens/movie-trailer-page.png" alt="Screenshot of Movie Trailer Website" class="portfolio-pic">
-            </a>
-            <ul>
-              <li>Python</li>
-              <li>Bootstrap</li>
-            </ul>
-          </div>
-          <div class="portfolio-box">
-            <h3>More in progress! :-)</h3>
-          </div>
-        </section>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
+        <div class="portfolio-box">
+          <h3>Pixel Art Canvas</h3>
+          <a href="https://codepen.io/kwagner91/pen/KyyZYO" target="_blank">
+            <img src="project-screens/pixel-art.png" alt="Screenshot of Pixel Canvas Project" class="portfolio-pic">
+          </a>
+          <ul>
+            <li>Javascript</li>
+            <li>HTML/CSS</li>
+            <li>jQuery</li>
+          </ul>
+        </div>
+        <div class="portfolio-box">
+          <h3>Animal Trading Card</h3>
+          <a href="https://github.com/KWagner91/animal-trading-card" target="_blank">
+            <img src="project-screens/animal-trading-card.png" alt="Screenshot of my Animal Trading Card" class="portfolio-pic">
+          </a>
+          <ul>
+            <li>HTML/CSS</li>
+          </ul>
+        </div>
+        <div class="portfolio-box">
+          <h3>Fill-in-blanks Console Quiz</h3>
+          <a href="https://github.com/KWagner91/Fill-in-the-blanks" target="_blank">
+            <img src="project-screens/fill-in-blanks.png" alt="Screenshot of Fill-in-blanks Console Game" class="portfolio-pic">
+          </a>
+          <ul>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div class="portfolio-box">
+          <h3>Anime Movie-Trailer Website</h3>
+            <a href="https://github.com/KWagner91/Anime-Movie-Page" target="_blank">
+          <img src="project-screens/movie-trailer-page.png" alt="Screenshot of Movie Trailer Website" class="portfolio-pic">
+          </a>
+          <ul>
+            <li>Python</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="portfolio-box">
+          <h3>More in progress! :-)</h3>
+        </div>
+    </section>
+    
+    <section id="Skills" class="skills">
+      <h1>Skills</h1>
+        <div>
+            <i class="fab fa-html5 fa-7x" class="icon"></i>
+            <p>HTML5</p>
+        </div>
+        <div>
+            <i class="fab fa-css3 fa-7x" class="icon"></i>
+            <p>CSS3</p>
+        </div>
+        <div>
+            <i class="fab fa-js fa-7x" class="icon"></i>
+            <p>JavaScript</p>
+        </div>
+        <div>
+            <i class="fab fa-github-square fa-7x" class="icon"></i>
+            <p>Git</p>
+        </div>
+        <div>
+            <i class="fab fa-react fa-7x" class="icon"></i>
+            <p>React</p>
+        </div>
+        <div>
+            <i class="fas fa-universal-access fa-7x" class="icon"></i>
+            <p>Accessibility</p>
+        </div>
+        <div>
+            <i class="fas fa-terminal fa-7x" class="icon"></i>
+            <p>UNIX</p>
+        </div>
+        <div>
+            <i class="fab fa-node-js fa-7x" class="icon"></i>
+            <p>Node.js</p>
+        </div>
+        <div>
+            <i class="fab fa-python fa-7x" class="icon"></i>
+            <p>Python 2</p>
+        </div>
 
-      <!-- article resource box with additional resources that I like-->
-      <section class="resources box">
-        <h2>Resources I like and find helpful</h2>
-        <h3>Online Courses</h3>
+      </ul>
+    </section>
+    
+    <section id="Resources" class="resources">
+      <h1>Resources</h1>
+      <h3>Online Courses</h3>
         <ul>
           <li><a href="https://eu.udacity.com/" target="_blank"><img src="icons/udacity.svg" alt="Udacity Logo" class="logo"></a> Udacity</li>
           <li><a href="https://www.theodinproject.com/" target="_blank"><img src="icons/LKvUgs4u_400x400.jpg" alt="The Odin Project Logo" class="logo"></a> The Odin Project</li>
@@ -115,17 +153,17 @@
           <li><a href="https://www.codewars.com/" target="_blank"><img src="icons/logo-square-red-big-dc2f35502ee2b60882a41327c529521c.png" alt="Codewars Logo" class="logo"></a> CodeWars </li>
           <li><a href="https://www.codenewbie.org/" target="_blank"><img src="icons/S5BZ6NrW_400x400.jpg" alt="CodeNewbie Logo" class="logo"></a> CodeNewbie </li>
         </ul>
-      </section>
+    </section>
 
-      <!-- footer bottom box with further contact information-->
-      <footer class="bottom box">
-        <h2>Contact Me </h2>
+    <footer id="Contact">
+        <h1>Contact Me </h1>
         <p>You can find me on <a href="https://github.com/KWagner91" target="_blank">Github</a>, <a href="https://www.linkedin.com/in/kerstin-wagner-658543b9/" target="_blank">LinkedIn</a> and <a href="https://twitter.com/KWagner1991" target="_blank">Twitter</a>! </p>
         <p>Please do not hesitate to <a href="mailto:Kerstin-wagner@gmx.at?Subject=Hello%20again">contact me</a> if you have further questions and hiring opportunities. Thank you for visiting!</p>
       </footer>
-
-    </div>
-
-  </body>
-
+  </div>
+      
+  
+  
+  <script src="js/scripts.js"></script>
+</body>
 </html>
