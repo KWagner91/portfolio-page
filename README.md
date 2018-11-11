@@ -8,6 +8,6 @@ Build a Portfolio Site, part of Udacity Course "Front-End Web Developer Nanodegr
 
 
 ## Last portfolio content update
-21.02.2018
+11.11.2018: Design and Content were updated
 
 
